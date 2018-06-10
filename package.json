@@ -2,20 +2,20 @@
   "name": "burger",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ldvalidze/burger.git"
+    "url": "git+https://github.com/geochanto/burger.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ldvalidze/burger/issues"
+    "url": "https://github.com/geochanto/burger/issues"
   },
-  "homepage": "https://github.com/ldvalidze/burger#readme",
+  "homepage": "https://github.com/geochanto/burger#readme",
   "dependencies": {
     "body-parser": "^1.18.3",
     "express": "4.16.3",
