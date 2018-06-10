@@ -23,9 +23,9 @@ var orm = {
     },
 
     // insertOne();
-    insertOne: function (burgerName, callback) {
+    insertOne: function (burger_name, callback) {
         connection.query('INSERT INTO burgers SET ?', {
-            burgerName: burgerName,
+            burger_name: burger_name,
             devoured: false
         }, function (err, result) {
             if (err) throw err;

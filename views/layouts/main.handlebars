@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Tab Title -->
+    <title>Gr8 Burgtain</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Custom Styling -->
+    <link rel="stylesheet" href="assets/css/style.css">
+  </head>
+  <body>
+  
+    <div class="container">
+      
+      <br>
+
+      <!-- index.handlebars -->
+      {{{body}}}
+
+
+      <br><br>
+
+      <!-- Input New Burgers Form -->
+      <form action="burger/create" method="POST"> 
+        
+        <!-- Text Area Input -->
+        <div class="row">
+
+
+          <!-- Burger Input Box -->
+          <div class="form-group col-md-4">
+            <label for="new_burger" class="red_font">Try to add a Burgher</label>
+            <textarea class="form-control" columns="8" rows="4" id="new_burger" name="burger_name"></textarea><br>
+           <button id="submit-button" type="submit" class="btn btn-danger">Add Burgher!</button>
+          </div>
+         
+        </div>
+
+      </form>
+
+      <br>
+
+    </div>
+
+    <!-- Link in jQuery -->
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+
+
+  </body>
+</html>
