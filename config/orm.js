@@ -26,8 +26,7 @@ var orm = {
     insertOne: function (burgerName, callback) {
         connection.query('INSERT INTO burgers SET ?', {
             burgerName: burgerName,
-            devoured: false,
-            date: timestamp
+            devoured: false
         }, function (err, result) {
             if (err) throw err;
             callback(result);
@@ -46,4 +45,4 @@ var orm = {
 
 };
 
-module.exports = ORM;
+module.exports = orm;
